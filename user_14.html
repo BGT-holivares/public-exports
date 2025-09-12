@@ -1,27 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Héctor Javier Olivares - Inventory Profile</title>
 
-            <html>
-            <head>
-              <meta charset="utf-8">
-              <title>Héctor Javier Olivares - Public Profile</title>
-            </head>
-            <body>
-              <h1>Héctor Javier Olivares</h1>
-              <p>Puesto: DTI</p>
+  <style>
+    @font-face {
+      font-family: 'Nexa-Bold';
+      src: url('assets/fonts/NexaBold.woff2') format('woff2'),
+           url('assets/fonts/NexaBold.woff') format('woff');
+      font-weight: bold;
+      font-style: normal;
+      font-display: swap;
+    }
 
-              <h2>Workstations</h2>
-              <ul>
-                <li>Dell Latitude 3500 (QuadCore Intel Core i5-8265U, 3200 MHz (32 x 100), 16259 MB  (DDR4 SDRAM))</li><li>Lenovo ThinkPad X1 Tablet Gen 3 (QuadCore Intel Core i7-8650U, 3400 MHz (34 x 100), 16227 MB  (LPDDR3 SDRAM))</li>
-              </ul>
+    @font-face {
+      font-family: 'Nexa-Light';
+      src: url('assets/fonts/NexaLight.woff2') format('woff2'),
+           url('assets/fonts/NexaLight.woff') format('woff');
+      font-weight: 300;
+      font-style: normal;
+      font-display: swap;
+    }
 
-              <h2>Accessories</h2>
-              <ul>
-                <li>G203 LIGHTSYNC Gaming Mouse</li>
-              </ul>
+    @font-face {
+      font-family: 'Nexa';
+      src: url('assets/fonts/NexaRegular.woff2') format('woff2'),
+           url('assets/fonts/NexaRegular.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
 
-              <h2>Licenses</h2>
-              <ul>
-                <li>ZWCAD 2025 (exp: None)</li>
-              </ul>
-            </body>
-            </html>
-            
+    html, body {
+      height: 100%;
+      margin: 0;
+      background-color: #FAFAFA;
+      font-family: Nexa, sans-serif;
+      color: #0D0D0D;
+    }
+
+    .bdg-header-content {
+      background: #F0F0F0;
+      text-align: center;
+      border-radius: 10px 10px 0 0;
+      padding: 10px;
+      box-shadow: 0 0 3px 0 #000;
+    }
+
+    .bdg-header-1 {
+      font-size: 32px;
+      margin: 0;
+      font-family: 'Nexa-Bold';
+      color: #1D6289;
+    }
+
+    .container {
+      width: 80%;
+      margin: 20px auto;
+      background: #FFFFFF;
+      border-radius: 10px;
+      border: 1px solid #1D6289;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      padding: 20px;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-top: 20px;
+      padding-bottom: 5px;
+      border-bottom: 2px solid #F0F0F0;
+      color: #1D6289;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      background: #FAFAFA;
+      border: 1.5px solid #1D6289;
+      border-radius: 8px;
+      padding: 10px;
+      margin: 10px 0;
+      font-family: 'Nexa-Light';
+    }
+
+    .bdg-footer-content {
+      background: #F0F0F0;
+      text-align: center;
+      border-radius: 0 0 10px 10px;
+      padding: 10px;
+      box-shadow: 0 0 3px 0 #000;
+      margin-top: 20px;
+      font-size: 14px;
+      font-family: 'Nexa-Light';
+    }
+  </style>
+</head>
+<body>
+  <div class="bdg-header-content">
+    <h1 class="bdg-header-1">Detalles del usuario:</h1>
+    <p>Héctor Javier Olivares </p>
+  </div>
+
+  <div class="container">
+    <h2>Equipos</h2>
+    <ul>
+      
+        <li>
+          <strong>Dell Latitude 3500</strong><br>
+          Número de serie: C8TSKW2
+        </li>
+      
+        <li>
+          <strong>Lenovo ThinkPad X1 Tablet Gen 3</strong><br>
+          Número de serie: PF1FHUP4
+        </li>
+      
+    </ul>
+
+    <h2>Accesorios</h2>
+    <ul>
+      
+        <li>
+          <strong>G203 LIGHTSYNC Gaming Mouse</strong><br>
+          Número de serie: 2337LZXCHLA8
+        </li>
+      
+    </ul>
+
+    <h2>Licencias</h2>
+    <ul>
+      
+        <li>
+          <strong>ZWCAD 2025</strong><br>
+          Expira el: None
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="bdg-footer-content">
+    Intranet Budgeto · 14
+  </div>
+</body>
+</html>
